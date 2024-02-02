@@ -1,0 +1,25 @@
+#!/bin/bash
+##
+## example-array.slurm.sh: submit an array of jobs with a varying parameter
+##
+## Lines starting with #SBATCH are read by Slurm. Lines starting with ## are comments.
+## All other lines are read by the shell.
+##
+##SBATCH --account=priority-<name>        #specify the account to use
+#SBATCH --job-name=sample            # job name
+#SBATCH --partition=unsafe              # queue partition to run the job in
+#SBATCH --nodes=1                       # number of nodes to allocate
+#SBATCH --ntasks-per-node=1             # number of descrete tasks - keep at one except for MPI
+#SBATCH --cpus-per-task=2              # number of cores to allocate
+#SBATCH --mem=2G                     # 2000 MB of Memory allocated; set --mem with care
+#SBATCH --time=0-00:00:01                 # Maximum job run time
+##SBATCH --array=1-3                  # Number of jobs in array
+#SBATCH --output=example-%j.out
+#SBATCH --error=example-%j.err
+
+## Run 'man sbatch' for more information on the options above.
+
+date                            # print out the date
+hostname -s                     # print a message from the compute node
+date                            # print the date again
+

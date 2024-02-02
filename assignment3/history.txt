@@ -1,0 +1,8 @@
+  999  module load Mamba
+ 1000  mamba create -n assignment3
+ 1001  source .bashrc
+ 1002  mamba activate assignment3
+ 1003  mamba install python
+ 1004  pip install matplotlib
+ 1005  pip install xarray
+ 1006  source deactivate

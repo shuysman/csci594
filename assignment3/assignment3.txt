@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --account=priority-csci494
+#SBATCH --partition=priority
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
+#SBATCH --job-name=assignment3
+#SBATCH --output=assignment3-%j.out 
+#SBATCH --error=assignment3-%j.err
+#SBATCH --mail-user=<email-address>
+#SBATCH --mail-type=ALL
+module load Anaconda3/2020.07
+source activate $HOME/myenv/
+python3 /home/group/csci494/assignment3.py
