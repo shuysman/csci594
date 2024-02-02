@@ -6,3 +6,9 @@
  1004  pip install matplotlib
  1005  pip install xarray
  1006  source deactivate
+### Forgot to install netcdf4
+ 1030  module load Mamba
+ 1031  mamba activate assignment3
+ 1032  pip install netcdf4
+ 1033  conda deactivate
+
