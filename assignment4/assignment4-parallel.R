@@ -24,9 +24,9 @@ rain <- rast(rain_files) %>%
 
 ### Calculate mean accumulate SWE across history 
 
-### Mean rain for each year
-annual_mean_rain <- terra::tapp(rain,
-                         fun = \(i) mean(i), ### Use base R mean() to allow parallelization
+### Sum rain for each year
+annual_sum_rain <- terra::tapp(rain,
+                         fun = \(i) sum(i), ### Use base R mean() to allow parallelization
                          index = "years",
                          cores = cores)
 
