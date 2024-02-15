@@ -31,7 +31,7 @@ annual_sum_rain <- terra::tapp(rain,
                          cores = cores)
 
 ### Mean rain for all years
-mean_rain <- terra::app(annual_mean_rain,
+mean_rain <- terra::app(annual_sum_rain,
                         fun = \(i) mean(i),  ### Use base R mean() to allow parallelization
                         cores = cores)
 
