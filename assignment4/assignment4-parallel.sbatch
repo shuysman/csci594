@@ -28,5 +28,5 @@ hostname -s
 module load Mamba
 source $HOME/.bashrc
 mamba activate r-test
-Rscript assignment4-sequential.R
+Rscript assignment4-parallel.R
 date
