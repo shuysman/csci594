@@ -1,0 +1,15 @@
+This week’s assignment is to create and run a sequential and parallel program on Tempest then upload the scripts and results to D2L. You can use the prime calculator example as a starting point but will need to choose a different algorithm or program that is relevant to your field of study or research. It is fine to use an open source application for this if you prefer. Following are the steps to complete this assignment.
+
+    Login to Tempest and select "tempest shell access" from the Clusters tab
+    View the example python and sbatch scripts: ls /home/group/csci494/assignment4/
+    If you would like to use the example as a starting point, copy the examples to your home folder: cp /home/group/csci494/assignment4/* $HOME
+    Select an algorithm or program relevant to your field that can be run either sequentially or in parallel. 
+    Modify the example scripts (or create new ones) to run your selected program sequentially. 
+    Run a sequential version of your program: sbatch name-of-your-sbatch-script 
+    Copy and modify the example scripts (or create new ones) to run your selected program with 32-128 threads (don't forget to set the thread count in your sbatch file along with the script).
+    Run the parallel example: sbatch parallel.sbatch
+    Check the status of your jobs: sacct
+    When your jobs have completed, you can see the output file names with the “ls” command and can view them on Tempest with nano.
+    Transfer the .sbatch, .py, .out, .err, and any other output files of reasonable size to your computer using the files tab 
+    Change the file extension on each to .txt
+    Your files will now transfer to your computer form which you can upload them to D2L - if any of your files are empty, d2l will not accept so you can skip empty files. When you submit your files, also include a brief 1-2 sentence description of what your program does. If you don't get everything to work in an hour or so, that is ok as long as you describe and submit what you did accomplish.
