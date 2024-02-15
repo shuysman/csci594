@@ -20,8 +20,8 @@
 #SBATCH --mail-type=ALL
 ##SBATCH --output=fire-%A-%a.out
 ##SBATCH --error=fire-%A-%a.err
-#SBATCH --output=assignment4-%j.out
-#SBATCH --error=assignment4-%j.err
+#SBATCH --output=assignment4-seq-%j.out
+#SBATCH --error=assignment4-seq-%j.err
 
 date
 hostname -s
