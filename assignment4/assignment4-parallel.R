@@ -35,7 +35,7 @@ mean_rain <- terra::app(annual_mean_rain,
                         fun = \(i) mean(i),  ### Use base R mean() to allow parallelization
                         cores = cores)
 
-png(filename = "~/out/rain-sequential.png")
+png(filename = "~/out/rain-parallel.png")
 plot(mean_rain)
 dev.off()
 
