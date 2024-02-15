@@ -9,7 +9,7 @@ library(tidyverse)
 
 terraOptions(verbose = TRUE)
 
-cores <- 64
+cores <- 1
 
 ##wb_data_dir <- file.path("/media/smithers/shuysman/data/nps_gridded_wb/gye/historical/")
 wb_data_dir <- file.path("~/data/nps_gridded_wb/gye/historical/")
