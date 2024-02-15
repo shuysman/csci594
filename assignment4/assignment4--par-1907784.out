@@ -1,0 +1,30 @@
+Thu Feb 15 10:38:01 MST 2024
+tempest-epyc011
+memory avail. : 818.64 GB
+memory allow. : 491.18 GB
+memory needed : 32.308 GB  (12 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+memory avail. : 815.26 GB
+memory allow. : 489.16 GB
+memory needed : 0.029 GB  (4 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+memory avail. : 804.41 GB
+memory allow. : 482.65 GB
+memory needed : 0.029 GB  (24 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+null device 
+          1 
+Time difference of 13.36636 mins
+Thu Feb 15 10:51:28 MST 2024
