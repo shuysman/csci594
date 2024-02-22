@@ -20,7 +20,7 @@
 #SBATCH --error=assignment5-%j.err
 
 
-date
+start=`date +%s`
 hostname -s
 
 NCDIR=$HOME/data/MACA/gye/forecasts/daily
@@ -33,4 +33,7 @@ mamba activate cdo
 ##cdo -P 1 ensmean -selyear,2050/2059 $NCDIR/tmmx_{bcc-csm1-1,BNU-ESM,CanESM2,CNRM-CM5,CSIRO-Mk3-6-0,GFDL-ESM2G,GFDL-ESM2M,HadGEM2-CC365,HadGEM2-ES365,inmcm4,IPSL-CM5A-LR,IPSL-CM5A-MR,IPSL-CM5B-LR,MIROC5,MIROC-ESM-CHEM,MIROC-ESM,MRI-CGCM3}
 cdo -P 1 ensmean -selyear,2050/2059 $NCDIR/tmmx_{bcc-csm1-1,BNU-ESM,CanESM2,CNRM-CM5}_rcp45_2006-2099_daily_gye.nc $OUTDIR/ensmean.nc
 
-date
+end=`date +%s`
+runtime=$((end-start))
+
+echo $runtime
