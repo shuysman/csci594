@@ -8,8 +8,8 @@ library(tidyverse)
 
 terraOptions(verbose = TRUE)
 
-##nc_dir <- file.path("~/data/nps_gridded_wb/gye/forecasts/")
-nc_dir <- file.path("/media/smithers/shuysman/data/nps_gridded_wb/gye/forecasts/")
+nc_dir <- file.path("~/data/nps_gridded_wb/gye/forecasts/")
+##nc_dir <- file.path("/media/smithers/shuysman/data/nps_gridded_wb/gye/forecasts/")
 
 models <- c("BNU-ESM",
             "CanESM2",
@@ -33,10 +33,10 @@ start_year <- args[3]
 end_year <- args[4]
 
 ### For testing
-model <- "BNU-ESM"
-scenario <- "rcp45"
-start_year <- 2050
-end_year <- 2059
+## model <- "BNU-ESM"
+## scenario <- "rcp45"
+## start_year <- 2050
+## end_year <- 2059
 
 
 ### Find SWE files matching year range
