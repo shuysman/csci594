@@ -27,10 +27,12 @@ models <- c("BNU-ESM",
 
 args <- commandArgs(trailingOnly = TRUE)
 
-model <- models[args[1]]
-scenario <- args[2]
-start_year <- args[3]
-end_year <- args[4]
+model_id <- as.numeric(args[1])
+
+(model <- models[model_id])
+(scenario <- args[2])
+(start_year <- args[3])
+(end_year <- args[4])
 
 ### For testing
 ## model <- "BNU-ESM"
