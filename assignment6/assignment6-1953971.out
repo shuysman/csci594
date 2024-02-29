@@ -1,0 +1,32 @@
+Thu Feb 29 12:12:33 MST 2024
+tempest-epyc007
+2
+[1] "CanESM2"
+[1] "rcp45"
+[1] "2050"
+[1] "2059"
+memory avail. : 686.15 GB
+memory allow. : 411.69 GB
+memory needed : 0.147 GB  (12 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+memory avail. : 686.13 GB
+memory allow. : 411.68 GB
+memory needed : 0.049 GB  (4 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+memory avail. : 686.1 GB
+memory allow. : 411.66 GB
+memory needed : 0.025 GB  (20 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+Thu Feb 29 12:12:41 MST 2024

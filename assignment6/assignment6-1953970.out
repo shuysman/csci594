@@ -1,0 +1,32 @@
+Thu Feb 29 12:12:33 MST 2024
+tempest-epyc006
+1
+[1] "BNU-ESM"
+[1] "rcp45"
+[1] "2050"
+[1] "2059"
+memory avail. : 639.95 GB
+memory allow. : 383.97 GB
+memory needed : 0.147 GB  (12 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+memory avail. : 639.98 GB
+memory allow. : 383.99 GB
+memory needed : 0.049 GB  (4 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+memory avail. : 639.95 GB
+memory allow. : 383.97 GB
+memory needed : 0.025 GB  (20 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+Thu Feb 29 12:12:42 MST 2024

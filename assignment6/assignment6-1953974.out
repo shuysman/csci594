@@ -1,0 +1,32 @@
+Thu Feb 29 12:12:33 MST 2024
+tempest-epyc013
+5
+[1] "CSIRO-Mk3-6-0"
+[1] "rcp45"
+[1] "2050"
+[1] "2059"
+memory avail. : 898.9 GB
+memory allow. : 539.34 GB
+memory needed : 0.147 GB  (12 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+memory avail. : 898.86 GB
+memory allow. : 539.32 GB
+memory needed : 0.049 GB  (4 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+memory avail. : 898.8 GB
+memory allow. : 539.28 GB
+memory needed : 0.025 GB  (20 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+Thu Feb 29 12:12:42 MST 2024

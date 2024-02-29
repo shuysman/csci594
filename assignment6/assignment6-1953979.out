@@ -1,0 +1,32 @@
+Thu Feb 29 12:12:42 MST 2024
+tempest-epyc018
+10
+[1] "MIROC5"
+[1] "rcp45"
+[1] "2050"
+[1] "2059"
+memory avail. : 882.96 GB
+memory allow. : 529.78 GB
+memory needed : 0.147 GB  (12 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+memory avail. : 882.91 GB
+memory allow. : 529.74 GB
+memory needed : 0.049 GB  (4 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+memory avail. : 882.87 GB
+memory allow. : 529.72 GB
+memory needed : 0.025 GB  (20 copies)
+in memory     : true
+block size    : 474 rows
+n blocks      : 1
+pb            : 3
+
+Thu Feb 29 12:12:49 MST 2024
