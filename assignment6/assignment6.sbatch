@@ -20,6 +20,8 @@ module load Mamba
 source $HOME/.bashrc
 mamba activate r-test
 
+echo $SLURM_ARRAY_TASK_ID
+
 Rscript avg_swe.R $SLURM_ARRAY_TASK_ID $scenario $start_year $end_year
 
 date
