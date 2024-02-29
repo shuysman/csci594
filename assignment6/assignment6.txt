@@ -1,0 +1,10 @@
+For this week's assignment, run a distributed version of a naturally parallel problem on Tempest, observing the behavior when scaling the workloads across greater resources. 
+
+    Create a folder named output in your home folder on Tempest
+    Copy the scripts from /home/group/assignment6/ to your home folder on Tempest as a starting point
+    Modify them to run a different naturally parallel problem and summarize the results
+        If you can, select a problem that is relevant to your field of study or research – if you are unable to find a relevant naturally parallel problem, you man instead select some other naturally parallel problem
+    Copy the array sbatch script to your output folder
+    Cd to your output folder and submit the array job
+    Cd to your home folder, modify summarize.sbatch with the proper jobid, and run the summarize job
+    Submit your slurm array sbatch script, summarize sbatch script, and your final output to D2L
