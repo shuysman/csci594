@@ -1,0 +1,12 @@
+For this longer assignment, we'll take a scalable algorithm that calculates Pi and run it as a basic python version, as a numpy-optimized version, as a multithreaded version, and as a multinode MPI version to see the performance scaling. We will then take a simple MPI example and try sending different data back and forth between threads running on different servers in Tempest. Finally, we will see if we can find an existing MPI program in our fields.
+
+    Copy all files from /home/group/csci494/assignment7/ to your home folder
+    Load the anaconda module with module load Anaconda3/2022.05
+    Setup your anaconda environment with conda env create -f /home/group/csci494/assignment7/pythonmpi.yaml
+    Submit the prime calculator sbatch jobs using the provided seq.slurm, numpy.slurm, par.slurm, and mpi.slurm sbatch scripts. 
+    Gather the runtime for each of these, noting that the first one is only performing 1/10th the calculations as the others. 
+    Now modify the provided mpiexample.sbatch and mpiexample.py scripts to do something else (pass data back and forth between more tasks and nodes, pass larger data with some computation, try MPI with some project you've worked on before, etc.).
+    See if you can find an existing program in your field that uses MPI (this may be done with something like a google search along the lines of "MPI genome assembly"). If you find a program give a brief description of what it does and provide a link to the program website. If you do not, either describe a problem in your field that might benefit from MPI or why MPI is not needed for most problems in your field. 
+    This assignment should take a bit longer than others as you have 3 weeks to complete it. 
+    Upload your runtimes for the pi calculating jobs, your modified mpiexample.sbatch and mpiexample.py scripts, the output from your mpiexample job, and the description of MPI in your field to D2L.
+    
