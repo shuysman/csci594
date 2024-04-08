@@ -1,0 +1,58 @@
+steve@ecol-laptop:~$ ssh steve@20.55.66.134
+steve@20.55.66.134's password: 
+Permission denied, please try again.
+steve@20.55.66.134's password: 
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0-1059-azure x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+  System information as of Mon Apr  8 17:42:46 UTC 2024
+
+  System load:  0.61              Processes:             104
+  Usage of /:   7.9% of 28.89GB   Users logged in:       0
+  Memory usage: 34%               IPv4 address for eth0: 10.0.0.4
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+30 updates can be applied immediately.
+13 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+New release '22.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Mon Apr  8 17:38:39 2024 from 153.90.19.17
+steve@assignment9:~$ Rscript benchmark.R 
+    test replications elapsed relative user.self sys.self user.child sys.child
+1 1:10^6          100   0.001        1         0        0          0         0
+                    test elapsed replications
+1 random.array(100, 100)   0.053          100
+2 random.array(100, 100)   0.054          100
+3 random.array(100, 100)   0.053          100
+4 random.array(100, 100)   0.054          100
+5 random.array(100, 100)   0.053          100
+6 random.array(100, 100)   0.053          100
+  test replications elapsed  average
+2  arr           10   0.005 0.000500
+4  arr          100   0.048 0.000480
+6  arr         1000   0.532 0.000532
+1  rep           10   0.009 0.000900
+3  rep          100   0.097 0.000970
+5  rep         1000   0.823 0.000823
+  test elapsed replications
+2  arr   0.048          100
+1  rep   0.081          100
+steve@assignment9:~$ hostname -f
+assignment9.hsjqrdtce1dejk5irdjvugrkyb.bx.internal.cloudapp.net
